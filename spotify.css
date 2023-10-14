@@ -1,0 +1,238 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+     width: 100%;
+     height: 1800px;
+    margin: 0 9px;
+    padding: 0;
+}
+.navigation{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 148px;
+    height: 63px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 492px;
+    height: 80px;
+    float: right;
+    margin-right: 20px;
+    color: white;
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav a{
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+}
+.sign-up{
+    color: rgb(200, 205, 205);
+    margin-left: 10px;
+    padding: 10px;
+}
+.navigation nav a{
+    box-sizing: border-box;
+}
+.main-content{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(189, 43, 226);
+}
+.phone-size{
+    position: relative;
+    width: 40%;
+    padding-top: 100px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    height: 500px;
+}
+.phone-style{
+    background-color: white;
+    width: 286px;
+    height: 500px;
+    overflow: hidden;
+    overflow-clip-margin: content-box;
+    border-bottom: none;
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+    position: absolute;
+    top: 100px;
+    left: 156px;
+}
+img{
+    box-sizing: border-box;
+    width: 90%;
+    height:500px;
+    margin: 35px 0 0 15px;
+    position: relative;
+}
+.mic{
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    width: 45px;
+    height: 4px;
+    border-radius: 11px;
+    background-color: black;
+    position: absolute;
+    top: 25px;
+    left: 100px;
+}
+.text{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: start;
+    font-size: 60px;
+    color: white;
+    position: absolute;
+    top: 262px;
+    left: 541px;
+    font-weight: bolder;
+
+}
+button{
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    border: none;
+    width: 188px;
+    height: 42px;
+    position: absolute;
+    top: 415px;
+    left: 565px;
+    cursor: pointer;
+    font-size: 15px;
+    line-height: 20px;
+    text-transform: none;
+    letter-spacing: normal;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+button:hover{
+    margin-top: -10px;
+}
+h1{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    margin-top: 60px;
+}
+.how{
+    width: 1349px;
+    height: 595px;
+    overflow: auto;
+    background: inherit;
+}
+.article{
+    width: 1170px;
+    height: 445px;
+    padding: 75px 15px;
+    margin: 0 89.500px;
+}
+.heading{
+    width: 1140px;
+    height: 46px;
+    margin-bottom: 72px;
+    text-align: center;
+}
+.h2{
+    width: 670px;
+    height: 46px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.uses{
+    width: 1140px;
+    height: 327.297px;
+    display: flex;
+    flex-wrap: nowrap;
+     justify-content: space-between;
+}
+.favorite{
+    width: 285px;
+    height: 307.297px;
+    margin-bottom: 20px;
+}
+.fav{
+    width: 142px;
+    height: 142px;
+    margin-bottom: 40px;
+    margin-left: 71.500px;
+    margin-right: 71.500px;
+    text-decoration: none;
+}
+.fav0{
+    width: 285px;
+    height: 109.297px;
+    margin: 16px 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fav1{
+    width: 285px;
+    height: 27.297px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 21px;
+    padding: 0;
+    line-height: 1.3em;
+    text-align: center;
+    text-decoration: none;
+}
+.fav2{
+    width: 242.250px;
+    height: 72px;
+    margin: 0 auto;
+    text-align: center;
+}
+.footer{
+    padding-top: 80px;
+    padding-bottom: 50px;
+    height: 524px;
+    width: 100%;
+    background-color:black;
+}
+.f-boxs{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    padding: 20px 0;
+}
+.image{
+    width:132px ;
+    height: 42px;
+}
+.f-box h2{
+    color: gray;
+    padding: 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box ul{
+    list-style: none;
+}
+.f-box ul li{
+    padding: 7px 0;
+    color:white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
